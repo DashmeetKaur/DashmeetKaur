@@ -101,7 +101,7 @@ jQuery(document).ready(function($) {
       url: action,
       data: str,
       success: function(responseData, status) {
-        //console.log('responseData = '+responseData);
+        console.log('responseData = '+responseData);
         if (responseData == 'OK') {
           $("#sendmessage").addClass("show");
           $("#errormessage").removeClass("show");
