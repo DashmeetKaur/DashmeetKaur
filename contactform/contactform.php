@@ -7,9 +7,8 @@
 		$formattedMessage = $message. '\n '.$name;
 		$recipient = 'dashmeetkaur11@gmail.com';
 		$headers = 'From: '.$email . "\r\n" .
-    'Reply-To: '.$recipient . "\r\n" .
-    'X-Mailer: PHP/' . phpversion();
-		mail($recipient,$subject,$formattedMessage,$headers)or die('Error!');
+    'Reply-To: '.$recipient;
+    	mail($recipient,$subject,$formattedMessage,$headers)or die('Error!');
 		return 'OK';
 	}
 	else{
