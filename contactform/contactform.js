@@ -97,7 +97,7 @@ jQuery(document).ready(function($) {
     }
     //console.log('Sending data');
     $.ajax({
-      type: "POST",
+      type: "GET",
       url: action,
       data: str,
       success: function(responseData, status) {
