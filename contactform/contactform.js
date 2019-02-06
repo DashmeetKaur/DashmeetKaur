@@ -90,27 +90,32 @@ jQuery(document).ready(function($) {
     });
     if (ferror) return false;
     else var str = $(this).serialize();
+    //console.log(str)
     var action = $(this).attr('action');
     if( ! action ) {
       action = 'contactform/contactform.php';
     }
+    //console.log('Sending data');
     $.ajax({
       type: "POST",
       url: action,
       data: str,
-      success: function(msg) {
-        // alert(msg);
-        if (msg == 'OK') {
+      success: function(responseData, status) {
+        //console.log('responseData = '+responseData);
+        if (responseData == 'OK') {
           $("#sendmessage").addClass("show");
           $("#errormessage").removeClass("show");
           $('.contactForm').find("input, textarea").val("");
         } else {
           $("#sendmessage").removeClass("show");
           $("#errormessage").addClass("show");
-          $('#errormessage').html(msg);
+          $('#errormessage').html(responseData);
         }
 
-      }
+      },
+      error: function(msg) {
+        alert('Error!! data:'+str);
+      } 
     });
     return false;
   });
