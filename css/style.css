@@ -159,7 +159,9 @@ header {
 }
 
 .intro a {
-	color:#000;
+	color:#92DD03;
+	z-index: 1500;
+	word-wrap: break-word;
 }
 
 /* --- Parallax --- */
@@ -538,7 +540,8 @@ img#site-title {
 	height: 100%; 
 	float: left; 
 	background-color: #fff;
-	padding: 10px
+	padding: 10px;
+	overflow: scroll;
 }
 /* Navigation */
 .slideshow nav span {
