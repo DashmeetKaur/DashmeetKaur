@@ -914,6 +914,6 @@ blockquote cite:before {
 	content: "\2014 \2009";
 }
 
-#research h3,h5,p {
+#research > h3, #research > h5,p {
 	text-align: justify;
 }
