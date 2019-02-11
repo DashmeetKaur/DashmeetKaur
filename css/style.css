@@ -357,7 +357,7 @@ img#site-title {
 	transform:translateZ(0px);
 	opacity:1;
 	pointer-events:auto;
-	height: 350px;
+	height: 400px;
 }
 .skills h5 {
 	margin:0;
@@ -457,7 +457,7 @@ img#site-title {
 	z-index:500;
 	opacity:0;
 	visibility:hidden;
-	overflow:hidden;
+	overflow:scroll;
 	-webkit-perspective:1000px;
 	perspective:1000px;
 	-webkit-transition:opacity 0.5s,visibility 0s 0.5s;
@@ -489,11 +489,11 @@ img#site-title {
 }
 .slideshow li {
 	width:80%;
-	height:80%;
+	height:70%;
 	position:absolute;
-	top:60%;
+	/*top:60%;
 	left:25%;
-	margin:-280px 0 0 -100px;
+	*/margin:25vh 0 0 15vw;
 	visibility:hidden;
 }
 .slideshow li.show {
