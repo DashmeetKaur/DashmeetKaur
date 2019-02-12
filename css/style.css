@@ -636,6 +636,16 @@ span.nav-close:before {
 	.slideshow nav span,.slideshow nav span.nav-close {
 			font-size:1.8em;
 			padding:0.3em;
+			margin-top: 15vh;
+	}
+	.slideshow div.image {
+		visibility: hidden;
+	}
+	.slideshow li {
+		margin: 22vh 1vw 0 1vw;
+	}
+	.slideshow div.desc {
+		width: 65%;
 	}
 	.info-keys {
 			display:none;
