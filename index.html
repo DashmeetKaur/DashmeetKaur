@@ -21,6 +21,7 @@
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
   <link rel="stylesheet" href="css/animate.css">
 <!--   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
  -->  <link href="css/style.css" rel="stylesheet">
@@ -67,9 +68,9 @@
                         <li class="menuItem active"><a href="#wrapper">Home</a></li>
                         <li class="menuItem"><a href="#aboutus">About Me</a></li>
                         <li class="menuItem"><a href="#specialties">Skills</a></li>
-                        <li class="menuItem"><a href="#research">Research</a></li>
                         <li class="menuItem"><a href="#experience">Experience</a></li>
                         <li class="menuItem"><a href="#gallery">Projects</a></li>
+                        <li class="menuItem"><a href="#research">Research</a></li>
                         <li class="menuItem"><a href="#feedback">Education</a></li>
                         <li class="menuItem"><a href="#contact">Contact</a></li>
                       </ul>
@@ -88,7 +89,7 @@
       <div class="container">
         <div class="heading text-center">
           <h2>About Me</h2>
-          <h3>Hola! I am so glad you stop by. You are probably here to know more about me. So, here it is. I am pursuing Master of Science in Information Technology at Rensselaer Polytechnic Institute. I am a dedicated and hard-working graduate student who is passionate about information technology and business. Some words that would describe me: speak concisely, motivated, ambitious, sociable, problem-solver and analyst. I am interested in Data Analytics, Information Technology, Machine Learning, Artificial Intelligence and Software Development. </h3>
+          <h3>Hola! I am so glad you stop by. You are probably here to know more about me. So, here it is. I am pursuing Master of Science in Information Technology at Rensselaer Polytechnic Institute. Not looking to brag, but I believe I am a dedicated and hard-working graduate student. I am passionate about information technology, business and the awesome ways in which these fields interact. Some words that would describe me: speak concisely, motivated, ambitious, sociable, problem-solver and analyst. I am interested in Data Analytics, Information Technology, Machine Learning, Artificial Intelligence and Software Development. </h3>
         </div>
         <!-- <div class="row">
           <div class="col-md-6">
@@ -200,6 +201,8 @@
                   <li>CSS</li>
                   <li>JavaScript</li>
                   <li>PHP</li>
+                  <li>jQuery</li>
+                  <li>Ajax</li>
                   <li>JSP</li>
                   <li>Servlet</li>
                 </ul>
@@ -335,40 +338,6 @@
         </div>
       </div>
     </section>
- 
-
-  <!--Research-->
-  <section class="aboutus" id="research">
-      <div class="container">
-        <div class="heading">
-          <h2>Research Papers</h2>
-          <h3 class="researchHeading">Dynamic Simulated Annealing for solving the Traveling Salesman Problem with Cooling Enhancer and Modified Acceptance Probability</h3>
-          <h5 class="researchHeading">Abstract</h5>
-          <p>In this paper, a dynamic (i.e. self-adaptive according to the number of nodes) Simulated Annealing Algorithm is presented
-to solve the well-known Traveling Salesman Problem (TSP). In the presented algorithm, the temperature parameter is adjusted on the
-basis of the number of nodes. To achieve dynamicity, a new parameter named “Cooling Enhancer” is introduced to control the
-cooling rate, thereby, regulating the temperature. Additionally, an enhanced version of acceptance probability has been used. The
-efficacy of Dynamic Simulated Annealing with Cooling Enhancer & Modified Acceptance Probability (DSA-CE&MAP) is compared
-against the basic simulated annealing algorithm (SA) [2] for some benchmark TSPLIB instances [1]. Experimental results illustrate
-that the new dynamic simulated annealing algorithm performs better than the basic simulated annealing algorithm for solving TSP. It
-has been observed that the quality of solutions (i.e. minimum total cost or distance) is significantly increased as compared to earlier
-method.</p>
-		 <p>Published in International Journal of Scientific and Research Publications, Volume 8, Issue 3, March 2018. <br/><a href="http://www.ijsrp.org/research-paper-0318.php?rp=P757273" target="_blank">DOI: 10.29322/IJSRP.8.3.2018.p7531</a></p>
-		 <h3 class="researchHeading">Genetic Algorithm for solving the Traveling Salesman Problem using Neighbor-based Constructive Crossover Operator</h3>
-          <h5 class="researchHeading">Abstract</h5>
-          <p>In this paper, a dynamic (i.e. self-adaptive according to the number of nodes) Simulated Annealing Algorithm is presented
-to solve the well-known Traveling Salesman Problem (TSP). In the presented algorithm, the temperature parameter is adjusted on the
-basis of the number of nodes. To achieve dynamicity, a new parameter named “Cooling Enhancer” is introduced to control the
-cooling rate, thereby, regulating the temperature. Additionally, an enhanced version of acceptance probability has been used. The
-efficacy of Dynamic Simulated Annealing with Cooling Enhancer & Modified Acceptance Probability (DSA-CE&MAP) is compared
-against the basic simulated annealing algorithm (SA) [2] for some benchmark TSPLIB instances [1]. Experimental results illustrate
-that the new dynamic simulated annealing algorithm performs better than the basic simulated annealing algorithm for solving TSP. It
-has been observed that the quality of solutions (i.e. minimum total cost or distance) is significantly increased as compared to earlier
-method.</p>
-		 <p>Published in International Journal of Engineering Sciences & Research Technology, Volume 7, Issue 4, April 2018 <br/><a href="https://zenodo.org/record/1401725#.XF-2MM83kWo" target="_blank">DOI: 10.5281/zenodo.1213003</a></p>
-        </div>
-    </div>
-  </section> 
 
   <!--Experience-->
     <section class="feedback" id="experience">
@@ -379,20 +348,33 @@ method.</p>
       </div>
 
       <div class="container">
-        <div class="col-md-4 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s">
+        <div class="col-md-3 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.3s">
+<!--           <div class="text-center">
+ -->            <div class="hi-icon-wrap hi-icon-effect">
+              <h4>Project Assistant and Software Engineering Intern</h4>
+              <h5>New York State Department of Health, Albany, New York</h5>
+              <h5>May 2018 - Present</h5>
+<!--               <i class="fa fa-laptop"></i>
+ -->          <i class="fa"><a href="http://www.schalklab.org/" target="_blank"><img src="img/work/ncan1.png"></a></i>
+              <p>Contributing to the development of open-source project BCI2000 (Brain-Computer Interaction) at National Center for Adaptive Technologies, Health Research Inc. under New York State Department of Health.</p>
+            </div>
+<!--           </div>
+ -->    </div>
+
+        <div class="col-md-3 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.6s">
 <!--           <div class="text-center">
  -->            <div class="hi-icon-wrap hi-icon-effect">
               <h4>Graduate Teaching Assistant</h4>
-              <h5>Rensselaer Polytechnic Institute <br/> Troy, New York</h5>
-              <h5>AUG 2018 - May 2018</h5>
+              <h5>Rensselaer Polytechnic Institute, Troy, New York</h5>
+              <h5>AUG 2018 - April 2019</h5>
 <!--               <i class="fa fa-laptop"></i>
  -->          <i class="fa"><a href="https://www.rpi.edu" target="_blank"><img src="img/work/Rensselaer.png"></a></i>
               <p>Assisted 90 students over a course of two semesters to understand the basic concepts of Information Technology and create websites using industry standard front-end technologies and a brief introduction to SQL database and XAMP server. Also, responsible for grading assignments, observing class participation of students and maintaining attendance.</p>
             </div>
 <!--           </div>
- -->        </div>
+ -->    </div>
 
-        <div class="col-md-4 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.6s">
+        <div class="col-md-3 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.9s">
 <!--           <div class="text-center">
  -->            <div class="hi-icon-wrap hi-icon-effect">
               <h4>Visiting Teaching Assistant<br/></h4>
@@ -403,9 +385,9 @@ method.</p>
               <p>Taught Internet & Web Technology and Basic Computer Networks to non-computing background students. Also, assisted and helped them in making projects.</p>
             </div>
 <!--           </div>
- -->        </div>
+ -->    </div>
 
-        <div class="col-md-4 wow fadeInRight" data-wow-offset="0" data-wow-delay="0.9s">
+        <div class="col-md-3 wow fadeInRight" data-wow-offset="0" data-wow-delay="1.2s">
 <!--           <div class="text-center">
  -->            <div class="hi-icon-wrap hi-icon-effect">
               <h4>Frontend Developer Trainee<br/></h4>
@@ -416,7 +398,7 @@ method.</p>
               <p>Learned technologies like React and React-native to develop apps on iOS ans Android simultaneously.<br/>Developed a blueprint for a website named 'info-inder'. The website was targeted to promote a app which would notify the user whenever they are in the vicinity of a shop where they could buy the stuff they listed to buy.</p>
             </div>
 <!--           </div>
- -->        </div>
+ -->     </div>
       </div>
     </section>
 
@@ -436,7 +418,7 @@ method.</p>
               <!-- for Masonry column width -->
               <li>
                 <figure>
-                    <img src="img/projects/BD.png" alt="" />        
+                    <img src="img/projects/BD.png" alt="Becton Dickinson Logo" />        
                 <figcaption>
                     <h3>The Stretch Goal Request Board for BD</h3>
                   </figcaption>
@@ -453,16 +435,24 @@ method.</p>
               --> 
               <li>
                 <figure>
-                    <img src="img/projects/DaPoster_small.png"alt="" />        
+                    <img src="img/projects/DaPoster_small.png"alt="Poster recapitulating the findings" />        
                 <figcaption>
                     <h3>Analyzing and Predicting Movie Ratings from IMDb data</h3>
                   </figcaption>
                 </figure>
               </li>
-              
               <li>
                 <figure>
-                  <img src="img/projects/Model_H1_small.png" alt="" />
+                  <img src="img/projects/tennis_small.png"alt="Tennis Ball image" />     
+                <figcaption>
+                    <h3>Tennis Analytics</h3>
+                  </figcaption>
+                </figure>
+              </li>
+
+              <li>
+                <figure>
+                  <img src="img/projects/Model_H1_small.png" alt="Flow of the application" />
 <!--                   <img src="img/projects/Model_H2.png" alt="" />
  -->                <figcaption>
                     <h3>Restaurants, Cuisine Recommendation & Feature Correlation by analyzing Yelp data</h3>
@@ -471,7 +461,7 @@ method.</p>
               </li>
               <li>
                 <figure>
-                  <img src="img/projects/hci.png" alt="" />
+                  <img src="img/projects/hci.png" alt="Human comuter interface logo" />
                   <figcaption>
                     <h3>Usability testing on HTMLEditor - a site to learn HTML (an RCOS: Rensselaer Centre for Open Source Project)</h3>
                   </figcaption>
@@ -479,7 +469,7 @@ method.</p>
               </li>
               <li>
                 <figure>
-                  <img src="img/projects/graph_small.jpg" alt="" />
+                  <img src="img/projects/graph_small.jpg" alt="Graph compairing result over a number of generations for the selected algorithms" />
                   <figcaption>
                     <h3>Enhancing the Algorithms for Solving the Traveling Salesman Problem and Simulation of Best Path using a Robot</h3>
                   </figcaption>
@@ -487,7 +477,7 @@ method.</p>
               </li>
               <li>
                 <figure>
-                  <img src="img/projects/OESlogo_small.jpg" alt="" />
+                  <img src="img/projects/OESlogo_small.jpg" alt="Online Electoral System Logo" />
                   <figcaption>
                     <h3>Online Electoral System</h3>
                   </figcaption>
@@ -495,7 +485,7 @@ method.</p>
               </li>
               <li>
                 <figure>
-                  <img src="img/projects/bank_small.png" alt="" /> <!-- <i class="fa fa-building-o fa-huge" style="color: #5261de"></i> -->
+                  <img src="img/projects/bank_small.png" alt="Bank image" /> <!-- <i class="fa fa-building-o fa-huge" style="color: #5261de"></i> -->
                   <figcaption>
                     <h3>Banking Management</h3>
                   </figcaption>
@@ -503,7 +493,7 @@ method.</p>
               </li>
               <li>
                 <figure>
-                  <img src="img/projects/ship_small.png" alt="" /><!-- <i class="fa fa-ship fa-huge" style="color: #2daed8"></i> -->
+                  <img src="img/projects/ship_small.png" alt="Ship image" /><!-- <i class="fa fa-ship fa-huge" style="color: #2daed8"></i> -->
                   <figcaption>
                     <h3>Shipping System</h3>
                   </figcaption>
@@ -512,7 +502,7 @@ method.</p>
 
               <li>
                 <figure>
-                  <img src="img/projects/car_small.png" alt="" /><!-- <i class="fa fa-car fa-huge" style="color: orange"></i> -->
+                  <img src="img/projects/car_small.png" alt="Car image" /><!-- <i class="fa fa-car fa-huge" style="color: orange"></i>-->
                   <figcaption>
                     <h3>Car Parking Reservation System</h3>
                   </figcaption>
@@ -538,7 +528,7 @@ method.</p>
               <li>
                 <div class="image">
                   <figure>
-                    <img src="img/projects/BD.png" alt=""/>        
+                    <img src="img/projects/BD.png" alt="Becton Dickinson Logo"/>        
                   </figure>
                 </div>
                 <div class="desc">
@@ -562,7 +552,7 @@ method.</p>
             <li>
                 <div class="image">
                   <figure>
-                    <img src="img/projects/DAPoster.jpg" alt="" />        
+                    <img src="img/projects/DAPoster.jpg" alt="Poster recapitulating the findings" />        
                   </figure>
                 </div>
                 <div class="desc">
@@ -571,11 +561,24 @@ method.</p>
                   </p>
                </div>
             </li>
-              <li>
+            <li>
                 <div class="image">
                   <figure>
-                   <img src="img/projects/Model_H1_small.png" alt="" style="height: 50%" />
-                   <img src="img/projects/Model_H2_small.png" alt="" style="height: 50%"/>
+<!--    <img src="img/projects/DAPoster.jpg" alt="" />-->  <i class="fa fa-volley-ball fa-huge" style='color:green'></i> 
+                  </figure>
+                </div>
+                <div class="desc">
+                  <h3>Tennis Analytics</h3>
+                  <p>Developed a model to predict the exact score for a match in Men Grand Slam Tournaments. The target was categorised into six categories {(number of sets won by player 1 - number of sets won by player 2) 3-2, 3-1, 3-0, 0-3, 1-3, 2-3 }. The models developed were multinomial logistic regression, linear discriminant analysis and random forest with boosting. The multinomial logistic regression achieved the highest accuracy of 60.11%.  
+                  </p>
+               </div>
+            </li>
+            
+            <li>
+                <div class="image">
+                  <figure>
+                   <img src="img/projects/Model_H1_small.png" alt="Flow of the application" style="height: 50%" />
+                   <img src="img/projects/Model_H2_small.png" alt="Flow of the algorithm" style="height: 50%"/>
                   </figure>
                 </div>
                 <div class="desc">
@@ -592,7 +595,7 @@ method.</p>
             <li>
               <div class="image">
                 <figure>
-                  <img src="img/projects/hci.png" alt="" />
+                  <img src="img/projects/hci.png" alt="Human comuter interface logo" />
                 </figure>
               </div>
               <div class="desc"> 
@@ -603,7 +606,7 @@ method.</p>
             <li>
               <div class="image">
                 <figure>
-                  <img src="img/projects/graph.jpg" alt="" />
+                  <img src="img/projects/graph.jpg" alt="Graph compairing result over a number of generations for the selected algorithms" />
                 </figure>
               </div>
               <div class="desc">
@@ -615,7 +618,7 @@ method.</p>
             <li>
               <div class="image">
                 <figure>
-                   <img src="img/projects/OESlogo.jpg" alt="" />
+                   <img src="img/projects/OESlogo.jpg" alt="OES logo" />
                 </figure>
               </div>
               <div class="desc">
@@ -689,6 +692,38 @@ The project was fabricated using JSP, J2EE servlets using HTML, XML, CSS, javasc
         <!-- // grid-gallery -->
       </div>
     </section>
+<!--Research-->
+  	<section class="aboutus" id="research">
+      <div class="container">
+        <div class="heading">
+          <h2>Research Papers</h2>
+          <h3 class="researchHeading">Dynamic Simulated Annealing for solving the Traveling Salesman Problem with Cooling Enhancer and Modified Acceptance Probability</h3>
+          <h5 class="researchHeading">Abstract</h5>
+          <p>In this paper, a dynamic (i.e. self-adaptive according to the number of nodes) Simulated Annealing Algorithm is presented
+to solve the well-known Traveling Salesman Problem (TSP). In the presented algorithm, the temperature parameter is adjusted on the
+basis of the number of nodes. To achieve dynamicity, a new parameter named “Cooling Enhancer” is introduced to control the
+cooling rate, thereby, regulating the temperature. Additionally, an enhanced version of acceptance probability has been used. The
+efficacy of Dynamic Simulated Annealing with Cooling Enhancer & Modified Acceptance Probability (DSA-CE&MAP) is compared
+against the basic simulated annealing algorithm (SA) [2] for some benchmark TSPLIB instances [1]. Experimental results illustrate
+that the new dynamic simulated annealing algorithm performs better than the basic simulated annealing algorithm for solving TSP. It
+has been observed that the quality of solutions (i.e. minimum total cost or distance) is significantly increased as compared to earlier
+method.</p>
+		<p>Published in International Journal of Scientific and Research Publications, Volume 8, Issue 3, March 2018. <br/><a href="http://www.ijsrp.org/research-paper-0318.php?rp=P757273" target="_blank">DOI: 10.29322/IJSRP.8.3.2018.p7531</a></p>
+		<h3 class="researchHeading">Genetic Algorithm for solving the Traveling Salesman Problem using Neighbor-based Constructive Crossover Operator</h3>
+         <h5 class="researchHeading">Abstract</h5>
+         <p>In this paper, a dynamic (i.e. self-adaptive according to the number of nodes) Simulated Annealing Algorithm is presented
+to solve the well-known Traveling Salesman Problem (TSP). In the presented algorithm, the temperature parameter is adjusted on the
+basis of the number of nodes. To achieve dynamicity, a new parameter named “Cooling Enhancer” is introduced to control the
+cooling rate, thereby, regulating the temperature. Additionally, an enhanced version of acceptance probability has been used. The
+efficacy of Dynamic Simulated Annealing with Cooling Enhancer & Modified Acceptance Probability (DSA-CE&MAP) is compared
+against the basic simulated annealing algorithm (SA) [2] for some benchmark TSPLIB instances [1]. Experimental results illustrate
+that the new dynamic simulated annealing algorithm performs better than the basic simulated annealing algorithm for solving TSP. It
+has been observed that the quality of solutions (i.e. minimum total cost or distance) is significantly increased as compared to earlier
+method.</p>
+		<p>Published in International Journal of Engineering Sciences & Research Technology, Volume 7, Issue 4, April 2018 <br/><a href="https://zenodo.org/record/1401725#.XF-2MM83kWo" target="_blank">DOI: 10.5281/zenodo.1213003</a></p>
+        </div>
+    </div>
+  </section> 
 
     <!--education-->
     <section class="feedback" id="feedback">
@@ -869,9 +904,9 @@ The project was fabricated using JSP, J2EE servlets using HTML, XML, CSS, javasc
             0: 'banner',
             1: 'aboutus',
             2: 'specialties',
-            3: 'research',
-            4: 'experience',
-            5: 'gallery',
+            3: 'experience',
+            4: 'gallery',
+            5: 'research',
             6: 'feedback',
             7: 'contact'
           },
