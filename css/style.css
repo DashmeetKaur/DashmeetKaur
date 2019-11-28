@@ -282,6 +282,11 @@ img#site-title {
   background: #fd8916;
 }
 
+.progress .color6,
+.progress .color6 .bar-width{
+  background: #2d9da4;
+}
+
 .progress, 
 .progress-bar {
   height: 15px;
@@ -344,6 +349,10 @@ img#site-title {
 }
 .progress .color5 span:before{
   border-color: #fd8916 transparent transparent transparent;
+}
+
+.progress .color6 span:before{
+  border-color: #2d9da4 transparent transparent transparent;
 }
 
 .specialties img {
